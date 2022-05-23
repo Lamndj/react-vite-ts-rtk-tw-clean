@@ -9,9 +9,14 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
+    "class-transformer": "^0.5.1",
+    "inversify": "^6.0.1",
+    "inversify-react": "^1.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-redux": "^7.2.6"
+    "react-inversify": "^2.0.1",
+    "react-redux": "^7.2.6",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@types/react": "^17.0.33",

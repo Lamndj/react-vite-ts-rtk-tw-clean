@@ -1,11 +1,15 @@
 import React from "react";
-import Counter from "./features/counter/Counter";
+import { Provider } from "inversify-react";
+import Counter from "./presentation/Components/Counter";
+import { di } from "./core/injection_container";
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <Counter />
-    </div>
+    <Provider container={di}>
+      <div className="App">
+        <Counter />
+      </div>
+    </Provider>
   );
 }
 
